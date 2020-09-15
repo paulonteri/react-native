@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View, TextInput, Button } from 'react-native';
 import { styles, formViewStyles } from './styles';
 
-export default function Login() {
+export default function Login(props) {
   return (
     <View style={styles.container}>
       <View style={styles.containerText}>
@@ -20,7 +20,10 @@ export default function Login() {
           <Text style={styles.formText}>Password</Text>
           <TextInput style={styles.formInput} />
         </View>
-        <Button title="Login" />
+        <Button
+          title="Login"
+          onPress={() => props.navigation.navigate('Home')}
+        />
       </View>
       {/* <--- end formView ---> */}
     </View>
