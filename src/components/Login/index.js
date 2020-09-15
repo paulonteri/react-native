@@ -1,12 +1,13 @@
 import React from 'react';
 import { Text, View, TextInput, Button } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { styles, formViewStyles } from './styles';
 
 export default function Login(props) {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.containerText}>
-        <Text style={styles.text}>Login to Inuua</Text>
+        <Text style={styles.text}>Login to Inuua Tujenge</Text>
       </View>
       {/* <--- formView ---> */}
       <View style={formViewStyles}>
@@ -24,6 +25,6 @@ export default function Login(props) {
         />
       </View>
       {/* <--- end formView ---> */}
-    </View>
+    </SafeAreaView>
   );
 }

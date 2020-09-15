@@ -1,9 +1,10 @@
 import React from 'react';
-import { Text, View, Button } from 'react-native';
+import { Text, Button } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function Home(props) {
   return (
-    <View>
+    <SafeAreaView>
       <Text>Home Screen</Text>
       <Button
         style={{ margin: 20 }}
@@ -15,6 +16,6 @@ export default function Home(props) {
         title="Go back"
         onPress={() => props.navigation.goBack()}
       />
-    </View>
+    </SafeAreaView>
   );
 }
