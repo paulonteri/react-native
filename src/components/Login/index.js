@@ -6,9 +6,7 @@ export default function Login(props) {
   return (
     <View style={styles.container}>
       <View style={styles.containerText}>
-        <Text style={styles.text}>
-          Open up App.js to start working on your app!
-        </Text>
+        <Text style={styles.text}>Login to Inuua</Text>
       </View>
       {/* <--- formView ---> */}
       <View style={formViewStyles}>
