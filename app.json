@@ -1,9 +1,9 @@
 {
-  "name": "test-rn",
-  "displayName": "test-rn",
+  "name": "Inuua Supplier Application",
+  "displayName": "Inuua Supplier Application",
   "expo": {
-    "name": "test-rn",
-    "slug": "test-rn",
+    "name": "Inuua Supplier Application",
+    "slug": "inuua-supplier-application",
     "version": "1.0.0",
     "assetBundlePatterns": ["**/*"]
   }
