@@ -1,9 +1,9 @@
 import React from 'react';
 import 'react-native-gesture-handler';
 import { Provider } from 'react-redux';
-import store from './src/store';
+import store from './store/store';
 
-import Component from './src/components';
+import Component from './screens';
 
 const App = () => {
   return (

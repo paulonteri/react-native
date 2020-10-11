@@ -6,8 +6,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 // import { StatusBar } from 'expo-status-bar';
-import Login from './Login';
-import Home from './Home';
+import Login from '../components/Login';
+import Home from '../components/Home';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();

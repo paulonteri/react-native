@@ -7,7 +7,7 @@ export default function Login(props) {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.containerText}>
-        <Text style={styles.text}>Login to Inuua Tujenge</Text>
+        <Text style={styles.text}>Login</Text>
       </View>
       {/* <--- formView ---> */}
       <View style={formViewStyles}>
