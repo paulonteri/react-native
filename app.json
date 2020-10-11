@@ -1,9 +1,9 @@
 {
-  "name": "Inuua Supplier Application",
-  "displayName": "Inuua Supplier Application",
+  "name": "React with Redux",
+  "displayName": "React with Redux",
   "expo": {
-    "name": "Inuua Supplier Application",
-    "slug": "inuua-supplier-application",
+    "name": "React with Redux",
+    "slug": "react-with-redux",
     "version": "1.0.0",
     "assetBundlePatterns": ["**/*"]
   }
